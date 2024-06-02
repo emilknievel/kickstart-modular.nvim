@@ -221,6 +221,7 @@ return {
         -- ts_ls = {},
         --
 
+        bashls = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
