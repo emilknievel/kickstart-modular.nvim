@@ -20,5 +20,22 @@ return {
       vim.cmd.colorscheme 'tokyonight-night'
     end,
   },
+  -- {
+  --   'catppuccin/nvim',
+  --   name = 'catppuccin',
+  --   priority = 1000,
+  --   init = function()
+  --     vim.cmd.colorscheme 'catppuccin'
+  --   end,
+  --   opt = {
+  --     flavour = 'auto',
+  --     background = {
+  --       light = 'latte',
+  --       dark = 'mocha',
+  --     },
+  --     transparent_background = false,
+  --     show_end_of_buffer = true,
+  --   },
+  -- },
 }
 -- vim: ts=2 sts=2 sw=2 et
