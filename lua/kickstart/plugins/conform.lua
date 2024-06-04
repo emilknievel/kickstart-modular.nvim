@@ -33,6 +33,12 @@ return {
         -- is found.
         javascript = { { 'prettierd', 'prettier' } },
         typescript = { { 'prettierd', 'prettier' } },
+
+        -- Disabled for now. Not sure about its "opinions". Do I agree with them?
+        -- Need to take a closer look.
+        -- cs = { 'csharpier' },
+
+        -- TODO: Solve for Vue and React.
       },
     },
   },

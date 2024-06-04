@@ -34,7 +34,7 @@ return {
         light = 'latte',
         dark = 'mocha',
       },
-      transparent_background = true,
+      transparent_background = false,
       show_end_of_buffer = true,
     },
   },
@@ -52,6 +52,7 @@ return {
   {
     'rose-pine/neovim',
     name = 'rose-pine',
+    lazy = false,
     priority = 1000,
     init = function()
       vim.cmd.colorscheme 'rose-pine'
@@ -60,7 +61,7 @@ return {
       dim_inactive_windows = true,
       styles = {
         bold = true,
-        italic = true,
+        italic = false,
         transparency = false,
       },
     },
