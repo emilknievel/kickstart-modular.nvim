@@ -23,6 +23,7 @@ return {
   {
     'rose-pine/neovim',
     name = 'rose-pine',
+    lazy = false,
     priority = 1000,
     init = function()
       vim.cmd.colorscheme 'rose-pine'
@@ -31,7 +32,7 @@ return {
       dim_inactive_windows = true,
       styles = {
         bold = true,
-        italic = true,
+        italic = false,
         transparency = false,
       },
     },

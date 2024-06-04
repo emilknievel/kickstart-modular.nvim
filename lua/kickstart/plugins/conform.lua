@@ -36,6 +36,12 @@ return {
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         -- javascript = { "prettierd", "prettier", stop_after_first = true },
+
+        -- Disabled for now. Not sure about its "opinions". Do I agree with them?
+        -- Need to take a closer look.
+        -- cs = { 'csharpier' },
+
+        -- TODO: Solve for Vue and React.
       },
     },
   },
