@@ -37,6 +37,34 @@ return {
       },
     },
   },
+  -- {
+  --   'slugbyte/lackluster.nvim',
+  --   lazy = false,
+  --   priority = 1000,
+  --   init = function()
+  --     -- vim.cmd.colorscheme 'lackluster'
+  --     -- vim.cmd.colorscheme 'lackluster-hack'
+  --     -- vim.cmd.colorscheme 'lackluster-mint'
+  --     -- vim.cmd.colorscheme 'lackluster-dark'
+  --   end,
+  -- },
+  -- {
+  --   'rose-pine/neovim',
+  --   name = 'rose-pine',
+  --   lazy = false,
+  --   priority = 1000,
+  --   init = function()
+  --     vim.cmd.colorscheme 'rose-pine'
+  --   end,
+  --   opts = {
+  --     dim_inactive_windows = true,
+  --     styles = {
+  --       bold = true,
+  --       italic = true,
+  --       transparency = false,
+  --     },
+  --   },
+  -- },
 }
 
 -- vim: ts=2 sts=2 sw=2 et
