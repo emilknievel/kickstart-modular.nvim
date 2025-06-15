@@ -7,9 +7,10 @@ return {
       local lint = require 'lint'
       lint.linters_by_ft = lint.linters_by_ft or {}
       lint.linters_by_ft['markdown'] = { 'markdownlint' }
-      lint.linters_by_ft['javascript'] = { 'eslint' }
-      lint.linters_by_ft['typescript'] = { 'eslint' }
+      lint.linters_by_ft['javascript'] = { 'biome' }
+      lint.linters_by_ft['typescript'] = { 'biome' }
       lint.linters_by_ft['bash'] = { 'shellcheck' }
+      lint.linters_by_ft['json'] = { 'biome' }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
       -- instead set linters_by_ft like this:
