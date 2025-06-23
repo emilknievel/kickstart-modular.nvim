@@ -1,6 +1,6 @@
 return {
   {
-    "vague2k/vague.nvim",
+    'vague2k/vague.nvim',
     init = function()
       vim.cmd.colorscheme 'vague'
     end,
@@ -17,7 +17,13 @@ return {
   --   init = function()
   --     vim.cmd.colorscheme 'solarized-osaka'
   --   end,
-  --   opts = {},
+  --   opts = {
+  --     styles = {
+  --       sidebards = 'normal',
+  --       floats = 'normal',
+  --     },
+  --     transparent = false,
+  --   },
   -- },
 }
 
